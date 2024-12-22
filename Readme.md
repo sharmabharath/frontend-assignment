@@ -88,7 +88,7 @@ npm test
 ## Challenges and Improvements
 
 ### Challenges
-- Implementing the Lazy and Suspense to the extent of asynchronous data fetching.
+- More test cases could be covered.
 
 ### Potential Improvements
 - Add search and filter features to enhance usability.
