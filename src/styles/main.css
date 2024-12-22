@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    justify-content: center;
+  }
+  
+ 
+  .center{
+    display: flex;
+     
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .light-theme {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #ffffff;
+    color: #000000;
+    height: 100vh;
+    width: 100%;
+    
+    
+     
+     
+  }
+  
+  .light-theme button {
+    background-color: #f4f4f4;
+    color: #000;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+ 
+  .dark-theme {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #121212;
+    color: #ffffff;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .dark-theme button {
+    background-color: #111111;
+    color: #fff;
+    border: 1px solid #444;
+    cursor: pointer;
+  }
+  .styled-searchbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .light-main-container{
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(227 227 227 / 51%);
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    
+  }
+  
+  .dark-main-container{
+    width: 90%;
+    padding: 10px;
+    background-color: rgba(36, 36, 36, 0.508);
+    border: 1px solid #414141;
+    border-radius: 10px;
+  }
+  .light-search-bar input{
+    height: 2rem;
+    width: 16rem;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    padding-left: 10px;
+    color: #000000;
+  }
+  .light-search-bar input:focus{
+    outline: 1px solid #7b7a7a69 !important;
+     
+  }
+  .dark-search-bar input{
+    height: 2rem;
+    width: 16rem;
+    border-radius: 5px;
+    border:   1px solid #555555;
+    padding-left: 10px;
+    background: #111111;
+    color:white;
+   
+  }
+  .dark-search-bar input:focus{
+    outline: 1px solid #7b7a7a !important;
+     
+  }
+  

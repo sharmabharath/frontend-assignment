@@ -1,0 +1,99 @@
+ 
+ 
+  .light-styled-table {
+    width: 100%;
+    
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .light-styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .light-styled-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 18px;
+  }
+
+  .light-styled-table th {
+    transition: all 0.2s ease-in-out;  
+    background-color: #8bd38e;
+    color: #000000;
+  }
+  
+  .light-styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  
+ 
+  .dark-styled-table {
+    width: 100%;
+    
+    border-collapse: collapse;
+    
+  }
+  .light-styled-table tr, 
+.dark-styled-table tr {
+  transition: all 0.2s ease-in-out;  
+}
+  .dark-styled-table th{
+    transition: all 0.2s ease-in-out;  
+    border: 1px solid #7a7878;
+    text-align: left;
+    padding: 8px;
+  }
+  .dark-styled-table td {
+    border: 1px solid #7a7878;
+    text-align: left;
+    padding: 18px;
+  }
+  .dark-styled-table th {
+    background-color: #214122;
+    color: white;
+  }
+  .light-styled-table,
+.dark-styled-table {
+  transition: height 0.2s ease-in-out, max-height 0.2s ease-in-out;
+}
+  .dark-styled-table tr:nth-child(even) {
+    background-color: #434343;
+  }
+  .dark-styled-table tr:nth-child(odd) {
+    background-color: #242424;
+  }
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .arrow-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .arrow-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .arrow-btn:hover:not(:disabled) {
+    background-color: #45a049;
+  }
+  
+  .page-numbers {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
